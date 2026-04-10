@@ -54,11 +54,11 @@ export const sbtAbi = [
 
 export const contracts = {
   experience: {
-    address: "0xbCF80cb53f173Ff8be96813a40be20eFAb2B59ed" as const,
+    address: "0x4249564a17EE0143819a109FAB241F55B1A5e9B4" as const,
     label: "ACP Experience",
   },
   lawyer: {
-    address: "0x0d41Cb0c9Da123a7554C5eee87aD289874e85E48" as const,
+    address: "0x2A2f1fBBf07C1372371cf4a65cB28C2DF681850b" as const,
     label: "ACP Lawyer",
   },
 };

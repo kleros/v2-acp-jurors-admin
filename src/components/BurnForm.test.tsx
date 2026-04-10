@@ -59,7 +59,7 @@ describe("BurnForm", () => {
     const link = screen.getByText(/View token holders on Arbiscan/);
     expect(link).toHaveAttribute(
       "href",
-      "https://arbiscan.io/token/0x0d41Cb0c9Da123a7554C5eee87aD289874e85E48#balances",
+      "https://arbiscan.io/token/0x2A2f1fBBf07C1372371cf4a65cB28C2DF681850b#balances",
     );
   });
 
@@ -70,7 +70,7 @@ describe("BurnForm", () => {
     const link = screen.getByText(/View token holders on Arbiscan/);
     expect(link).toHaveAttribute(
       "href",
-      "https://arbiscan.io/token/0xbCF80cb53f173Ff8be96813a40be20eFAb2B59ed#balances",
+      "https://arbiscan.io/token/0x4249564a17EE0143819a109FAB241F55B1A5e9B4#balances",
     );
   });
 
@@ -138,7 +138,7 @@ describe("BurnForm", () => {
     await user.type(screen.getByLabelText("Token Holder Address"), "0x1234567890abcdef1234567890abcdef12345678");
     await user.click(screen.getByRole("button", { name: "Burn" }));
     expect(mockWriteContract).toHaveBeenCalledWith({
-      address: "0x0d41Cb0c9Da123a7554C5eee87aD289874e85E48",
+      address: "0x2A2f1fBBf07C1372371cf4a65cB28C2DF681850b",
       abi: expect.any(Array),
       functionName: "burn",
       args: [42n],
