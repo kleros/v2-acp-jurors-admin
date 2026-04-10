@@ -1,0 +1,9 @@
+node_modules/
+.next/
+out/
+.yarn/*
+!.yarn/releases
+!.yarn/plugins
+*.tsbuildinfo
+.env
+.env.local
