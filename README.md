@@ -1,4 +1,4 @@
-# Juror Certification
+# Juror Certification Admin
 
 **Admin dashboard for minting and revoking Kleros Argentina Consumer Protection Soulbound Tokens on Arbitrum One.**
 
