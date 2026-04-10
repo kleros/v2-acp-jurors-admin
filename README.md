@@ -2,7 +2,7 @@
 
 **Admin dashboard for minting and revoking Kleros Argentina Consumer Protection Soulbound Tokens on Arbitrum One.**
 
-Built for the [Kleros](https://kleros.io) juror certification programme, this app lets contract owners issue non-transferable SBT credentials (Experience and Lawyer) to certified jurors and revoke them when needed.
+Built for the [Kleros v2 Argentina Consumer Protection](https://v2.kleros.builders/#/courts/32/purpose) juror certification programme, this app lets contract owners issue non-transferable SBT credentials (Experience and Lawyer) to certified jurors and revoke them when needed.
 
 ---
 
@@ -117,14 +117,3 @@ Key properties:
 | `yarn lint` | Lint with Biome |
 | `yarn format` | Auto-format with Biome |
 
----
-
-## Design
-
-The UI follows a **Neon Noir** dark theme: deep blacks layered with synthetic purple and magenta accents, glassmorphic cards, and noise-textured backgrounds. Typography pairs **Space Grotesk** (display) with **Manrope** (body). See [`DESIGN.md`](./DESIGN.md) for the full specification.
-
----
-
-## License
-
-MIT
